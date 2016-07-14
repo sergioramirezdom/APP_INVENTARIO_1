@@ -6,9 +6,9 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="crear">CREAR EQUIPO</string>
-    <string name="buscar">BUSCAR EQUIPO</string>
-    <string name="modificar">MODIFICAR EQUIPO</string>
-    <string name="eliminar">ELIMINAR EQUIPO</string>
-    <string name="reparar">REPARAR EQUIPO</string>
+    <string name="crear">CREAR</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="modificar">MODIFICAR</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="reparar">REPARAR</string>
 </resources>

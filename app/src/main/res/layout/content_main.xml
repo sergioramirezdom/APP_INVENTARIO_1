@@ -26,12 +26,15 @@
         android:layout_height="wrap_content"
         android:text="@string/buscar"
         android:id="@+id/button"
+        android:textSize="30sp"
+        android:clickable="true"
         android:layout_below="@+id/button4"
         android:layout_alignLeft="@+id/button4"
         android:layout_alignStart="@+id/button4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:textSize="30sp" />
+        android:onClick="lanzarBuscarEquipo" />
+
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -47,7 +50,7 @@
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="@string/eliminar"
+        android:text="@string/reparar"
         android:id="@+id/button2"
         android:layout_below="@+id/button1"
         android:layout_alignLeft="@+id/button1"
@@ -55,10 +58,11 @@
         android:layout_marginTop="10dp"
         android:textSize="30sp"
         android:clickable="true" />
+    
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="@string/reparar"
+        android:text="@string/eliminar"
         android:id="@+id/button3"
         android:textSize="30sp"
         android:clickable="true"

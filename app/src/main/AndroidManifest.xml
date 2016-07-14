@@ -18,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        //Actividad crear equipo
+        <activity
+            android:name=".Crear_Equipo"
+            android:label="@string/crear" />
+
     </application>
 
 </manifest>
