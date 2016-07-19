@@ -19,10 +19,27 @@
             </intent-filter>
         </activity>
         
-        //Actividad crear equipo
+        //Actividades botones
         <activity
             android:name=".Crear_Equipo"
             android:label="@string/crear" />
+
+        <activity
+            android:name=".Buscar_Equipo"
+            android:label="@string/buscar" />
+
+        <activity
+            android:name=".Modificar_Equipo"
+            android:label="@string/modificar" />
+
+        <activity
+            android:name=".Reparar_Equipo"
+            android:label="@string/reparar" />
+
+        <activity
+            android:name=".Eliminar_Equipo"
+            android:label="@string/eliminar" />
+
 
     </application>
 

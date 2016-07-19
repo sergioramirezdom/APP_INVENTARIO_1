@@ -102,19 +102,40 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    //Lanzar la actividad Crear
-    public void lanzarCrearEquipo(View view){
+    //Lanzar actividades
+    public void lanzarCrear(View view){
 
         Intent i = new Intent(this, Crear_Equipo.class);
         startActivity(i);
 
     }
 
-    //Lanzar la actividad Buscar
-    public void lanzarBuscarEquipo(View view){
+    public void lanzarBuscar(View view){
 
         Intent i = new Intent(this, Buscar_Equipo.class);
         startActivity(i);
 
     }
+
+    public void lanzarModificar(View view){
+
+        Intent i = new Intent(this, Modificar_Equipo.class);
+        startActivity(i);
+
+    }
+
+    public void lanzarReparar(View view){
+
+        Intent i =new Intent(this, Reparar_Equipo.class);
+        startActivity(i);
+
+    }
+
+    public void lanzarEliminar(View view){
+
+        Intent i = new Intent(this, Eliminar_Equipo.class);
+        startActivity(i);
+
+    }
+
 }

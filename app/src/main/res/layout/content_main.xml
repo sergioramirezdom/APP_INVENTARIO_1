@@ -19,7 +19,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
-        android:onClick="lanzarCrearEquipo"/>
+        android:onClick="lanzarCrear"/>
 
     <Button
         android:layout_width="300dp"
@@ -33,7 +33,7 @@
         android:layout_alignStart="@+id/button4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:onClick="lanzarBuscarEquipo" />
+        android:onClick="lanzarBuscar" />
 
     <Button
         android:layout_width="300dp"
@@ -45,7 +45,8 @@
         android:layout_alignStart="@+id/button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:onClick="lanzarModificar" />
 
     <Button
         android:layout_width="300dp"
@@ -57,7 +58,8 @@
         android:layout_alignStart="@+id/button1"
         android:layout_marginTop="10dp"
         android:textSize="30sp"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="lanzarReparar" />
     
     <Button
         android:layout_width="300dp"
@@ -69,6 +71,7 @@
         android:layout_marginTop="10dp"
         android:layout_below="@+id/button2"
         android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2" />
+        android:layout_alignStart="@+id/button2"
+        android:onClick="lanzarEliminar" />
 
 </RelativeLayout>
