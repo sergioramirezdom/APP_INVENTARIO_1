@@ -1,12 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pantalla BUSCAR EQUIPO"
-        android:id="@+id/textView1" />
+    <LinearLayout
 
-</LinearLayout>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rellena_los_datos_a_buscar"
+            android:id="@+id/textView1"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_equipo"
+            android:id="@+id/textView2"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/n_equipo"
+            android:ems="10"
+            android:id="@+id/input_equipo_b" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modelo"
+            android:id="@+id/textView3"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/modelo"
+            android:ems="10"
+            android:id="@+id/input_modelo_b" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_serie"
+            android:id="@+id/textView4"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/n_serie"
+            android:ems="10"
+            android:id="@+id/input_n_serie_b" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_producto"
+            android:id="@+id/textView6"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/n_producto"
+            android:ems="10"
+            android:id="@+id/input_n_producto_b" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/persona"
+            android:id="@+id/textView5"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/persona"
+            android:ems="10"
+            android:id="@+id/input_persona_b" />
+
+        <Button
+            android:text="@string/buscar"
+            android:layout_height="wrap_content"
+            android:layout_width="220dp"
+            android:id="@+id/boton_buscar"
+            android:elevation="0dp"
+            android:visibility="visible"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+</ScrollView>

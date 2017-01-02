@@ -11,4 +11,14 @@
     <string name="modificar">MODIFICAR</string>
     <string name="eliminar">ELIMINAR</string>
     <string name="reparar">REPARAR</string>
+    <string name="n_equipo">Nº Equipo</string>
+    <string name="rellena_los_datos_a_buscar">Rellena los datos del equipo a buscar:</string>
+    <string name="modelo">Modelo</string>
+    <string name="opciones">+ opciones</string>
+    <string name="n_serie">Nº de Serie</string>
+    <string name="persona">Persona asignada</string>
+    <string name="n_producto">Nº de producto</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="login">Acceder</string>
 </resources>

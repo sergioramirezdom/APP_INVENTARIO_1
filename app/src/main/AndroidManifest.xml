@@ -12,14 +12,18 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        
+        //Actividades
+
+        <activity
+            android:name=".Login"
+            android:label="@string/login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        //Actividades botones
         <activity
             android:name=".Crear_Equipo"
             android:label="@string/crear" />

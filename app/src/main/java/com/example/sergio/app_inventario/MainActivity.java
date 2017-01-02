@@ -13,6 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import java.sql.DriverManager;
+import java.sql.Connection;
+import java.sql.Driver;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -102,6 +105,9 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    //private void findViewById(int drawer_layout) {
+    //}
+
     //Lanzar actividades
     public void lanzarCrear(View view){
 
@@ -116,6 +122,8 @@ public class MainActivity extends AppCompatActivity
         startActivity(i);
 
     }
+
+
 
     public void lanzarModificar(View view){
 
@@ -135,6 +143,19 @@ public class MainActivity extends AppCompatActivity
 
         Intent i = new Intent(this, Eliminar_Equipo.class);
         startActivity(i);
+
+    }
+
+    public void lanzarMenu(View view){
+
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+
+    }
+
+    public void MostrarDatos(View view){
+
+
 
     }
 
